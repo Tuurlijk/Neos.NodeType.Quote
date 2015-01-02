@@ -1,0 +1,14 @@
+{
+	"name": "typofree/neos-nodetype-quote",
+	"type": "typo3-flow-package",
+	"description": "A node type enabling the use quotes",
+	"version": null,
+	"require": {
+		"typo3/neos-nodetypes": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"TypoFree\\Neos\\NodeType\\Quote": "Classes"
+		}
+	}
+}

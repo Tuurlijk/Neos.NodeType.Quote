@@ -1,0 +1,43 @@
+'TypoFree.Neos.NodeType.Quote:Quote':
+  superTypes: ['TYPO3.Neos:Content']
+  ui:
+    icon: 'icon-quote-left'
+    label: 'Quote'
+    inspector:
+      groups:
+        quote:
+          label: 'Quote'
+  properties:
+    citeAuthor:
+      type: string
+      ui:
+        label: 'Author'
+        reloadIfChanged: true
+        inspector:
+          group: quote
+    citeAuthorUri:
+      type: string
+      ui:
+        label: 'Author URI'
+        reloadIfChanged: true
+        inspector:
+          group: quote
+    citeUri:
+      type: string
+      ui:
+        label: 'URI'
+        reloadIfChanged: true
+        inspector:
+          group: quote
+    citeUriLabel:
+      type: string
+      ui:
+        label: 'URI Label'
+        reloadIfChanged: true
+        inspector:
+          group: quote
+    text:
+      type: string
+      defaultValue: 'Enter quote here'
+      ui:
+        inlineEditable: true
