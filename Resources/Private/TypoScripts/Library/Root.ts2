@@ -1,8 +1,1 @@
-prototype(TypoFree.Neos.NodeType.Quote:Quote) < prototype(TYPO3.Neos:Content) {
-	templatePath = 'resource://TypoFree.Neos.NodeType.Quote/Private/Templates/TypoScriptObjects/Quote.html'
-	citeAuthor = ${node.properties.citeAuthor}
-	citeAuthorUri = ${node.properties.citeAuthorUri}
-	citeUri = ${node.properties.citeUri}
-	citeUriLabel = ${node.properties.citeUriLabel}
-	text = ${node.properties.text}
-}
+prototype(TypoFree.Neos.NodeType.Quote:Quote) < prototype(TYPO3.Neos:Content)
